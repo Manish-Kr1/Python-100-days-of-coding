@@ -10,6 +10,8 @@ prob1--> add 2 numbers (taking input from user)
 
       
 Prob2 --> write a program to find he square root of a number
+
+
        num = 64
        num1 = int(input("Enter a number "))
        sr = num1**(1/2) 

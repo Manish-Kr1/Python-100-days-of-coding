@@ -1,7 +1,7 @@
 ﻿# Python-100-days-of-coding
 # Python-100-days-of-coding
 
-prob1--> add 2 numbers (taking input from user)
+# prob1--> add 2 numbers (taking input from user)
 
       num1 = float(input("enter num1 "))
       num2 = float(input("enter numm2 "))
@@ -9,7 +9,7 @@ prob1--> add 2 numbers (taking input from user)
       print ("sum of two numbers is", num1+num2)
 
       
-Prob2 --> write a program to find he square root of a number
+# Prob2 --> write a program to find he square root of a number
 
 
        num = 64
@@ -18,7 +18,7 @@ Prob2 --> write a program to find he square root of a number
       
        print("Square root of the number is ", sr)
       
-  # Solution 2 using Math module
+   Solution 2 using Math module
       
       import math
       num1 = int(input("enter a number "))
@@ -27,7 +27,7 @@ Prob2 --> write a program to find he square root of a number
       
       print("Square root of the number is ", sr)
 
-prob3 --> Write a program to Fund the area of a triangle
+# prob3 --> Write a program to Fund the area of a triangle
 
       
       Base = float(input("Enter base of triangle "))

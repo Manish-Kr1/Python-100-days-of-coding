@@ -42,5 +42,40 @@
        km = float(input("enter your value in kms "))
       
        mile = (0.621371)*km
+
+prob5 ---> Write a program to swap two variables
+
+     x = 13
+     y = 12
+     
+     temp = x
+     print("the value of temp is ", temp)
+     
+     x = y
+     print("the value of x is ", x)
+     
+     y = temp
+     print("the value of y is ", y)
+     
+     
+     solution 2 without using 3rd variable
+     
+     x = 12
+     y = 13
+     
+     x, y = y, x
+     
+     print("the value of x is ", x)
+     print("the value of y is ", y)
+
+
+
+
+
+
+
+
+
+
       
       print(km, "kms in miles is equal to ", mile, "miles")

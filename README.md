@@ -1,7 +1,7 @@
 ﻿# Python-100-days-of-coding
 # Python-100-days-of-coding
 
-# prob1--> add 2 numbers (taking input from user)
+ prob1--> add 2 numbers (taking input from user)
 
       num1 = float(input("enter num1 "))
       num2 = float(input("enter numm2 "))
@@ -9,7 +9,7 @@
       print ("sum of two numbers is", num1+num2)
 
       
-# Prob2 --> write a program to find he square root of a number
+ Prob2 --> write a program to find he square root of a number
 
 
        num = 64
@@ -27,7 +27,7 @@
       
       print("Square root of the number is ", sr)
 
-# prob3 --> Write a program to Fund the area of a triangle
+ prob3 --> Write a program to Find the area of a triangle
 
       
       Base = float(input("Enter base of triangle "))
@@ -35,3 +35,12 @@
       
       Area = (Base*Height)/2
       print("area of triangle is ", Area)
+
+ prob4 ---> write a program to convert Kilo meters into miles
+
+
+       km = float(input("enter your value in kms "))
+      
+       mile = (0.621371)*km
+      
+      print(km, "kms in miles is equal to ", mile, "miles")

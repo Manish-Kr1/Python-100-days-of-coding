@@ -92,3 +92,18 @@ prob6 --> Program to check if a number is positive negative or Zero
        
       else:
           print("number is odd")
+
+   prob8 --> Program to find if a year is leap year or not
+
+      year = int(input("enter a year "))
+      
+      if (year % 100 == 0) & (year % 400 == 0):
+          print(year, "is leap year ")
+      
+      elif (year % 4 == 0) and (year % 100 != 0):
+          print(year, "is a leap year ")
+      
+      else:
+          print(year, "is not a leap year ")
+
+

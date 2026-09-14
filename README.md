@@ -106,4 +106,7 @@ prob6 --> Program to check if a number is positive negative or Zero
       else:
           print(year, "is not a leap year ")
 
+      * Output --> enter a year 1996
+                  1996 is a leap year
+
 

@@ -43,6 +43,9 @@
       
        mile = (0.621371)*km
 
+       print(km, "kms in miles is equal to ", mile, "miles")
+
+
 prob5 ---> Write a program to swap two variables
 
      x = 13
@@ -80,14 +83,3 @@ prob6 --> Program to check if a number is positive negative or Zero
      
      else:
          print("number is 0 ")
-
-
-
-
-
-
-
-
-
-      
-      print(km, "kms in miles is equal to ", mile, "miles")

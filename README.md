@@ -83,3 +83,12 @@ prob6 --> Program to check if a number is positive negative or Zero
      
      else:
          print("number is 0 ")
+ 
+ prob7 --> Program to  find odd even numbers
+      num = int(input("Enter a  number "))
+       
+      if num % 2 == 0 :
+          print("number is even")
+       
+      else:
+          print("number is odd")

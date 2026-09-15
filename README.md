@@ -109,4 +109,18 @@ prob6 --> Program to check if a number is positive negative or Zero
        **Output --> enter a year 1996
                   1996 is a leap year**
 
+ prob9 --> write a program to find largest among three numbers
 
+       num1 = float(input("Enter first number: "))
+       num2 = float(input("Enter second number: "))
+       num3 = float(input("Enter third number: "))
+       
+       if (num1 >= num2) and (num1 >= num3):
+          largest = num1
+       elif (num2 >= num1) and (num2 >= num3):
+          largest = num2
+       else:
+          largest = num3
+       
+       print("The largest number is", largest)
+     

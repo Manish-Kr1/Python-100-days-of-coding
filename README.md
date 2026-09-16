@@ -85,6 +85,7 @@ prob6 --> Program to check if a number is positive negative or Zero
          print("number is 0 ")
  
  prob7 --> Program to  find odd even numbers
+      
       num = int(input("Enter a  number "))
        
       if num % 2 == 0 :

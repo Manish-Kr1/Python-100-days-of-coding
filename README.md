@@ -85,6 +85,7 @@ prob6 --> Program to check if a number is positive negative or Zero
          print("number is 0 ")
  
  prob7 --> Program to  find odd even numbers
+      
       num = int(input("Enter a  number "))
        
       if num % 2 == 0 :
@@ -123,4 +124,20 @@ prob6 --> Program to check if a number is positive negative or Zero
           largest = num3
        
        print("The largest number is", largest)
+
+
+prob10 --> write a program to check if a number is prime number or not
+
+      num = int(input("Enter a number "))
+     
+      if num <= 1:
+          print("it is not a prime number")
+      
+      if num > 1:
+          for i in range (2, num):
+              if num % i == 0:
+                  print(num, " is not a prime number")
+                  break
+          else:
+              print(num, " is a prime number")
      

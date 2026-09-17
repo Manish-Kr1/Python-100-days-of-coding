@@ -140,4 +140,12 @@ prob10 --> write a program to check if a number is prime number or not
                   break
           else:
               print(num, " is a prime number")
-     
+
+prob11 --> Write a program to print random numbers
+
+       import random   
+       
+       num = random.randint(0,10)
+       
+       print (num)
+

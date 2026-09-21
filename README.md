@@ -210,15 +210,15 @@ prob15 --> Write a program to find factorial of a number
 Solution 2 using recursion 
 
     def fact(a):
-        if a==0:
-           return 1
-        else:
-           return((a)*fact(a-1))
-
-     num = int(input("Enter a number here: "))
-
-     result = fact(num)
-     print("the factorial of the given number is ", result)
+    if a==0:
+         return 1
+    else:
+            return((a)*fact(a-1))
+    
+    num = int(input("Enter a number here: "))
+    
+    result = fact(num)
+    print("the factorial of the given number is ", result)
     
 
 

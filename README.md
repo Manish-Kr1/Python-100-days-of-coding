@@ -171,3 +171,18 @@ prob13 --> write a program to convert Celsius into Fahrenheit
       farenhite  = (celcius*(9/5))+32
       
       print("the converted value is ", farenhite)
+
+prob14 --->write a program  to find the sum of natural numbers after taking input from user
+
+      num = int(input("enter a natural num "))
+      
+      if num<0:
+          print("please enter a positive number")
+      
+      else:
+          sum = 0
+          while num > 0:
+              sum +=num
+              num  -= 1
+      
+          print(sum)**

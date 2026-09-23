@@ -219,6 +219,27 @@ Solution 2 using recursion
     
     result = fact(num)
     print("the factorial of the given number is ", result)
+
+
+prob16 ---> Write a program to print table of any number
+
+    num = int(input("Enter a number "))
     
+    for i in range(1, 11):
+    
+        print(num, " X ", i, "=", num*i )
+
+     
+     solution 2 Using while loop
+
+     n = int(input("Enter a number "))
+
+     i = 1
+     
+     while i <= 10:
+     
+         print(n, " X ", i, "=", n*i )
+     
+         i += 1
 
 

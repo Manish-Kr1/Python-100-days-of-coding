@@ -259,3 +259,24 @@ prob17 --> write a program to print Fibonacci series
              a = b
              b = c
              print(c)
+
+
+prob18  -->> Write a program to check if a number is an Armstrong number(3 digit number) 
+      
+       num = int(input("Enter a number here : "))
+       
+       sum = 0
+       temp = num
+       
+       while temp>0:
+           digit = temp % 10
+           cube = digit**3
+           sum = sum+cube
+           temp //= 10
+       
+       if sum  == num:
+           print("it  is an armstrong number ")
+       
+       else:
+           print("it  is not an armstrong number ")
+       

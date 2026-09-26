@@ -280,3 +280,20 @@ prob18  -->> Write a program to check if a number is an Armstrong number(3 digit
        else:
            print("it  is not an armstrong number ")
        
+
+prob19    --> write a program to find Armstrong numbers in an interval
+
+       lower = int(input("Enert the lower number here: "))
+       upper = int(input("Enert the upper number here: "))
+       
+       for num in range(lower, upper+1):
+           order = len(str(num))
+           sum = 0
+           temp = num 
+           while temp > 0:
+               digit = temp % 10
+               sum += digit ** order
+               temp //=10
+       
+       if num == sum:
+           print(num)

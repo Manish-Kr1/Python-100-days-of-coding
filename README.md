@@ -297,3 +297,11 @@ prob19    --> write a program to find Armstrong numbers in an interval
        
        if num == sum:
            print(num)
+
+prob20 --> write a program to print the numbers divisible by amother number
+
+      print("The numbers divisible by 13 are ")
+      for i in range (1, 100):
+          if i  % 13 == 0:
+              if i % 13 ==0:
+                  print (i)

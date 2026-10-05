@@ -305,3 +305,12 @@ prob20 --> write a program to print the numbers divisible by amother number
           if i  % 13 == 0:
               if i % 13 ==0:
                   print (i)
+
+prob21 --> write a program to print Binary, octal and hexadecimal number
+
+      decimal =  int(input("Enter a number "))
+      
+      print("the conversion of decimal number ", decimal, "is ")
+      print(bin(decimal), "in binary")
+      print(oct(decimal), "in octal")
+      print(hex(decimal), "in hexadecimal")

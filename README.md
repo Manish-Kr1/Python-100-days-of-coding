@@ -314,3 +314,9 @@ prob21 --> write a program to print Binary, octal and hexadecimal number
       print(bin(decimal), "in binary")
       print(oct(decimal), "in octal")
       print(hex(decimal), "in hexadecimal")
+
+prob22 --> Write a program to print ASCII value of any character 
+
+       char = 'A'
+       
+       print("ascii value of ", char,"is ", ord(char))

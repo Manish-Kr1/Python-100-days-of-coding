@@ -338,3 +338,11 @@ prob23  --> Write a program to print HCF or GCD(greatest common divisor) of two 
        y = 30
        
        print ("HCF of the given numbers is", findHCF(x, y))
+
+prob24  --> write a program to find factors of a number
+
+       num = int(input("Enter a number here: "))
+       
+       for i in range (1, num+1):
+           if num % i == 0:
+               print(i)

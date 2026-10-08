@@ -346,3 +346,13 @@ prob24  --> write a program to find factors of a number
        for i in range (1, num+1):
            if num % i == 0:
                print(i)
+
+prob25  --> write a program to print calendar
+
+      import calendar
+      
+      year = int(input("enter a year: "))
+      month = int(input("Enter month in number: "))
+      
+      calendar = calendar.month(year, month)
+      print(calendar)

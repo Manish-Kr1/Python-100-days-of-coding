@@ -396,3 +396,19 @@ prob27  -->write  a  program to  shuffle the deck of cards
       
       for i in range(5):
           print(deck[i][0], "of", deck[i][1])
+
+prob28 --> write a program to print Fibonacci series using recursion function.
+      
+      def fibo(n):
+          if n<=1:
+              return n
+          else:
+              return(fibo(n-1)+fibo(n-2))
+      
+      n = int(input("Enter a number here: "))
+      if n<0:
+          print("enter a positive number")
+      else:
+          print("Fibonacci sequence")
+      for i in range(n):
+          print (fibo(i))

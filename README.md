@@ -412,3 +412,19 @@ prob28 --> write a program to print Fibonacci series using recursion function.
           print("Fibonacci sequence")
       for i in range(n):
           print (fibo(i))
+
+prob29 --> Write a prog to print the sum of n number of natural numbers
+
+      def NNS (n):
+          if n<=1:
+             return n
+          else:
+             return  (n)+NNS(n-1)
+      
+      n = int(input("enter a number here: "))
+      
+      if n <= 0:
+         print("enter a positive number ")
+      
+      else:
+         print("The sum of natural number uptogiven number is", NNS(n))

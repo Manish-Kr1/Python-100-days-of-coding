@@ -425,6 +425,15 @@ prob29 --> Write a prog to print the sum of n number of natural numbers
       
       if n <= 0:
          print("enter a positive number ")
+
+prob30 --> Write a program to cinvert decimal to Binary using recusion function
+
+      def ConvertBinary(n):
+          if n>1:
+              ConvertBinary(n//2)
+          print(n%2, end= " ")
       
-      else:
+      print("The binary of the given number is: ")
+      ConvertBinary(15)
+            else:
          print("The sum of natural number uptogiven number is", NNS(n))

@@ -426,7 +426,7 @@ prob29 --> Write a prog to print the sum of n number of natural numbers
       if n <= 0:
          print("enter a positive number ")
 
-prob30 --> Write a program to cinvert decimal to Binary using recusion function
+prob30 --> Write a program to convert decimal to Binary using recusion function
 
       def ConvertBinary(n):
           if n>1:
@@ -437,3 +437,24 @@ prob30 --> Write a program to cinvert decimal to Binary using recusion function
       ConvertBinary(15)
             else:
          print("The sum of natural number uptogiven number is", NNS(n))
+
+prob31 --> Write a program  to add two matrices
+
+      a = [[1,5,8],
+           [4,6,7],
+           [7,2,3]]
+      
+      b = [[4,5,6],
+           [8,9,1],
+           [3,5,6]]
+      
+      result = [[0,0,0],
+                [0,0,0],
+                [0,0,0]]
+      
+      for i in range (len (a)):
+          for j in range (len(a[0])):
+              result[i][j] = a[i][j] + b[i][j]
+      
+      for r in result:
+          print (r)

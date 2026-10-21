@@ -461,7 +461,7 @@ prob31 --> Write a program  to add two matrices
 
 prob32  --> write a  program to  Transpose a matrics
 
-# solution 1 using for loop
+         # solution 1 using for loop
          A = [[1,2,3],
               [4,5,6]]
          
@@ -482,6 +482,16 @@ prob32  --> write a  program to  Transpose a matrics
               [4,5,6]]
          
          T = [[A[j][i] for j in range (len(A))] for i in range (len(A[0]))]
-         
          for i in T:
              print (i)
+
+prob33 --> write a program to check if a string is pallindrome
+
+        a = input("enter a word here: ")
+        
+        rev = a[::-1]
+        
+        if a == rev:
+            print("it is Pallindrome ")
+        else:
+            print("it is not Pallindrome ")

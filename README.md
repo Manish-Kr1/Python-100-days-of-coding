@@ -495,3 +495,17 @@ prob33 --> write a program to check if a string is pallindrome
             print("it is Pallindrome ")
         else:
             print("it is not Pallindrome ")
+
+prob34  --> write a program to remove punctuation in string
+
+       punc = r'''!()-\[]{},./<>?'";:|@#&*^~\`'''
+       
+       string = input("Enter anything here: ")
+       
+       empty_str = ""
+       
+       for i in string:
+           if i not in punc:
+               empty_str += i
+       
+       print(empty_str)

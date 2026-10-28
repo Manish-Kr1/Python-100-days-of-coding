@@ -543,6 +543,14 @@ prob36 ---> write a program to sort strings in alphabetical order
       for i in w:
           print(i)
 
-       
-       for i in result:
+prob36  --> Write a programm to perform set operations
+
+     A = {1,2,3,6,8,9}
+     B = {3,4,5,6,7,8}
+     
+     print("The union is ", A | B)
+     print("The Intrsection is ", A & B)
+     print("The Difference is ", A - B)
+     print("The Symmetric difference is ",A ^ B)
+            for i in result:
            print(i)

@@ -510,7 +510,7 @@ prob34  --> write a program to remove punctuation in string
        
        print(empty_str)
 
-prob25  --> write a program  to multiply two matrices 
+prob35  --> write a program  to multiply two matrices 
 
        a = [[1,5,8],
             [4,6,7],
@@ -528,6 +528,21 @@ prob25  --> write a program  to multiply two matrices
            for j in range(len(b[0])):
                for k in range (len(b)):
                    result[i][j] += a[i][k] * b[k][j]
+
+prob36 ---> write a program to sort strings in alphabetical order
+
+      a = input("enter something here:    ")
+      
+      w = a.split()
+      
+      for i  in range (len(w)):
+          w[i].lower()
+      
+      w.sort()
+      
+      for i in w:
+          print(i)
+
        
        for i in result:
            print(i)

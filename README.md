@@ -543,7 +543,7 @@ prob36 ---> write a program to sort strings in alphabetical order
       for i in w:
           print(i)
 
-prob36  --> Write a programm to perform set operations
+prob37  --> Write a programm to perform set operations
 
      A = {1,2,3,6,8,9}
      B = {3,4,5,6,7,8}
@@ -554,3 +554,30 @@ prob36  --> Write a programm to perform set operations
      print("The Symmetric difference is ",A ^ B)
             for i in result:
            print(i)
+
+prob37 ---> Write a program to count number of vowels in a string
+
+    # Solution 1 using dictionary
+    
+    a = "Harry potter and the prisoner of Azkaban"
+    vowels = "aeiou"
+    a = a.casefold()
+    print (a)
+    count = {}.fromkeys(vowels,0)
+    
+    for char in a:
+        if char in count:
+            count[char] += 1
+    
+    print(count)
+    
+    # Solution 2 using list and dictionary comprehension
+    
+    a = "Harry potter and the prisoner of Azkaban"
+    vowels = "aeiou"
+    a = a.casefold()
+    
+    count =  {key:sum([1 for char in a if char == key]) for key in vowels}
+    
+    print (count)        
+

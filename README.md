@@ -555,7 +555,7 @@ prob37  --> Write a programm to perform set operations
             for i in result:
            print(i)
 
-prob37 ---> Write a program to count number of vowels in a string
+prob38 ---> Write a program to count number of vowels in a string
 
     # Solution 1 using dictionary
     
@@ -581,3 +581,15 @@ prob37 ---> Write a program to count number of vowels in a string
     
     print (count)        
 
+prob39  -->  Write a program to get the resolution of image
+
+    import PIL
+    
+    from PIL import Image
+    
+    
+    image = PIL.Image.open("C:/Users/manis/Downloads/atuh-beach-sunrise-nusa-penida-bali-indonesia.jpg")
+    
+    width, height = image.size
+    
+    print(width, "X", height)

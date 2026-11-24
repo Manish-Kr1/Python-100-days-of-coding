@@ -620,4 +620,10 @@ prob40 --> write a program to merge two dictionarirs together
     dict3.update(dict1)
     
     print(dict3)
-    
+
+
+prob41 ---> Write a program to create nested directory
+
+    from pathlib  import Path
+    Path("C:/Users/manis/OneDrive/Desktop/Python/new_directory/demo_dict").mkdir(parents=True,exist_ok=True)
+
